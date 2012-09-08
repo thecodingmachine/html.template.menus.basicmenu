@@ -3,8 +3,6 @@ What is this package?
 
 This package contains a basic renderer to render in HTML a menu (using &lt;ul&gt; and &lt;li&gt; tags).
 The renderer is making extensive use of objects declared in the (mouf\html.widgets.menu)[https://github.com/thecodingmachine/html.widgets.menu] package).
-base objects and interfaces to describe menus and menu items.
-Basically, using interfaces and objects of this package, you can describe a menu.
 
 Mouf package
 ------------
