@@ -1,6 +1,6 @@
 {
     "name": "mouf/html.template.menus.basicmenu",
-    "description": "This package contains a single class in charge of rendering a "Menu" instance in HTML using the toHtml() method. The rendering is performed using &lt;ul&gt; and &lt;li&gt; tags.",
+    "description": "This package contains a single class in charge of rendering a 'Menu' instance in HTML using the toHtml() method. The rendering is performed using &lt;ul&gt; and &lt;li&gt; tags.",
     "keywords": ["mouf", "menu", "basicmenu"],
     "homepage": "https://github.com/thecodingmachine/html.template.menus.basicmenu",
     "type": "library",

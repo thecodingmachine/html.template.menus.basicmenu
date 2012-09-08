@@ -4,7 +4,10 @@
  * 
  * See the file LICENSE.txt for copying permission.
  */
+namespace Mouf\Html\Template\Menus;
 
+use \Mouf\Html\HtmlElement\HtmlElementInterface;
+use \Mouf\Html\Widgets\Menu\MenuItemInterface;
 
 /**
  * This class is in charge of rendering a menu. It contains a menu and can transform it in HTML using the toHtml() method.
@@ -35,7 +38,7 @@ class BasicMenuRenderer implements HtmlElementInterface {
 	/**
 	 * Initialize the object, optionnally with the array of menu items to be displayed.
 	 *
-	 * @param array<SplashMenuItem> $menuItems
+	 * @param array<MenuItemInterface> $menuItems
 	 */
 	public function __construct($menu = null) {
 		$this->menu = $menu;
