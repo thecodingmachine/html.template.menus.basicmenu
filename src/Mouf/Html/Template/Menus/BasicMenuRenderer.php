@@ -45,10 +45,10 @@ class BasicMenuRenderer implements HtmlElementInterface {
 	}
 	
 	public function toHtml() {
-		if ($this->menu && !$this->menu->isHidden()) {
+		$menuItems = $this->menu->getChildren();
+		if ($this->menu && !$this->menu->isHidden() && !empty($menuItems)) {
 			echo '<ul class="'.$this->cssClass.'">';
 			
-			$menuItems = $this->menu->getChildren();
 			if (is_array($menuItems)) {
 				foreach ($menuItems as $item) {
 					$this->renderHtmlMenuItem($item);
